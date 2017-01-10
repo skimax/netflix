@@ -1,0 +1,86 @@
+
+
+html {
+  background: url('../img/large.jpg') no-repeat center center fixed;
+  -webkit-background-size:center;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size: cover;
+  width:100%;
+  height:100%;
+
+}
+
+#ball {
+  border-radius:40px;
+  background-color:#ad0303;
+  width:60px;
+  height:60px;
+  position:absolute;
+ -webkit-animation: bounce 8s infinite;                                                        
+          
+ }
+@-webkit-keyframes bounce {
+   0%   { right: 0px; }
+   50% { right: 1000px; }
+   100% { right: 0px; }
+}
+                                                                              
+@-keyframes move {
+  0%   { left: 0px; }
+  50% { left: 1000px; }
+  100% { left: 0px; }
+
+}
+
+#ballon {
+  border-radius:40px;
+  background-color:blue;
+  width:60px;
+  height:60px;
+  position:absolute;
+ -webkit-animation: move 8s infinite ;                                                        
+          
+ }
+@-webkit-keyframes move {
+   0%   { left: 0px; }
+   50% { left: 1000px; }
+   100% { left: 0px; }
+}
+                                                                              
+@-keyframes move {
+  0%   { right: 0px; }
+  50% { right: 1000px; }
+  100% { right: 0px; }
+
+}
+
+
+.container h1 {
+	text-align: center;
+	color:#ad0303;
+}
+
+
+input[type="text"] {
+	width: 100%;
+	font-family: 'Karla', sans-serif;
+	font-size: 3rem;
+	height: 1.5rem;
+	border-radius: 3px;
+	padding: 30px;
+  	border: solid 2px #ad0303;
+  	transition: border 0.3s;
+ 
+}
+
+.name {
+	text-align: center;
+	
+}
+
+.container h2 {
+	text-align: center;
+	color:#ad0303;
+	text-transform: uppercase;
+}
